@@ -1,1 +1,2 @@
-# ZADANIE
+#!/bin/bash
+echo "Hello World"
