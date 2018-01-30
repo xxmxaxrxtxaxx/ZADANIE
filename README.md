@@ -14,7 +14,15 @@ if test $b == tak;
 echo "wybierz profil humanistyczny"
 
 else 
-"idz na biolchem"
+echo "Czy lubisz chemie?"
+read c
+
+if test $c == tak; 
+echo "idz na biolchem"
+
+else 
+echo "idz za głosem serca"
+
 
 
 
