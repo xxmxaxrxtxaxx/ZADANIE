@@ -1,4 +1,5 @@
 #!/bin/bash
-echo "Hello World"
-echo "Hello World2"
-echo "Hello World3"
+echo "Podaj pierwsza liczbe"
+read a
+echo "Podaj druga liczbe"
+read b
