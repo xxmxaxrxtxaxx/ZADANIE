@@ -9,8 +9,11 @@ echo "Masz zły humor"
 elif test $a == 2; then
 echo "Masz średni humor"
 
-else 
+elif test $a == 3; then  
 echo "jesteś szczęśliwy"
+
+else 
+echo "Twoj humor jest poza skala" 
 
 fi
 
