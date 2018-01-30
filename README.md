@@ -1,19 +1,38 @@
 #!/bin/bash
 
-echo "Podaj jaki masz dzis humor w skali od 1 do 3"
+echo "Dziendobry!"
+echo "Oto kalkulator."
+echo "Wybierz opcje:"
+
+echo "1-dodawanie"
+echo "2-odejmowanie"
+echo "3-mnozenie"
+echo "4-dzielenie"
+
+read kal
+
+
+echo "Podaj 1 liczbe"
 read a
 
-if test $a == 1; then
-echo "Masz zły humor"
+echo "Podaj 2 liczbe"
+read b
 
-elif test $a == 2; then
-echo "Masz średni humor"
 
-elif test $a == 3; then  
-echo "jesteś szczęśliwy"
-
-else 
-echo "Twoj humor jest poza skala" 
-
-fi
-
+if [ $kal = "1" ] 
+    then 
+        w=`expr $a + $b`
+        echo "$w"
+    elif [ $kal = "2" ] 
+    then 
+        w=`expr $a - $b`
+        echo "$w"
+    elif [ $kal = "4" ] 
+    then 
+        w=`expr $a / $b`
+        echo "$w"
+    elif [ $kal = "3" ] 
+    then 
+        w=`expr $a \* $b`
+        echo "$w"
+fi 
