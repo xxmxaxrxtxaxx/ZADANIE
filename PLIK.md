@@ -4,5 +4,8 @@ read a
 echo "Podaj druga liczbe"
 read b
 c=$(expr $a + $b)
-d=$(expr $c % 2)
 echo "Suma tych liczb to: "$c
+echo "Podaj kolejna liczbe"
+read d
+e=$(expr $c + $d)
+echo "Teraz suma wynosi:"$e 
