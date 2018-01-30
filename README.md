@@ -7,7 +7,15 @@ if test $a  == tak  ; then
 echo "Wybierz profil mat-fiz"
 
 else 
-echo "Idź na humana" 
+echo "Czy lubisz polski" 
+read b 
+
+if test $b == tak; 
+echo "wybierz profil humanistyczny"
+
+else 
+"idz na biolchem"
+
 
 
 fi
