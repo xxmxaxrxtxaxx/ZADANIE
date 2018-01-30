@@ -13,7 +13,7 @@ elif test $a == 3; then
 echo "jesteś szczęśliwy"
 
 else 
-echo "Twoj humor jest poza skala" 
+echo "Twoj humor jest poza skalą" 
 
 fi
 
