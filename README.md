@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Hello World"
-echo "Witam wszystkich tutaj zgromadzonych"
+echo "Witam wszystkich tutaj zgromadzonych :) "
