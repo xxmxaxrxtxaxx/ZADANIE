@@ -1,1 +1,2 @@
-to jest pierwsza zmiana 
+to jest pierwsza zmiana
+super  
